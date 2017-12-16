@@ -135,7 +135,7 @@
 [commit]
 
 	# https://help.github.com/articles/signing-commits-using-gpg/
-	gpgsign = true
+	# gpgsign = true
 
 [diff]
 
@@ -148,9 +148,6 @@
 	textconv = hexdump -v -C
 
 [help]
-
-	# Automatically correct and execute mistyped commands
-	autocorrect = 1
 
 [merge]
 

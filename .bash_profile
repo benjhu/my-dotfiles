@@ -1,6 +1,11 @@
 # Add `~/bin` to the `$PATH`
 export PATH="$HOME/bin:$PATH";
 
+# Message of the Day (motd)
+msg="Accessed on "
+msg+="$(date +'%B %d, %Y %r')"
+echo "${msg}" | cowsay | lolcat
+
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
 # * ~/.extra can be used for other settings you don’t want to commit.
