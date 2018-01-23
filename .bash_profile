@@ -2,7 +2,7 @@
 export PATH="$HOME/bin:$PATH";
 
 # Message of the Day (motd)
-msg="Accessed on "
+nl=$'\n'
 msg+="$(date +'%B %d, %Y %r')"
 echo "${msg}" | cowsay | lolcat
 
